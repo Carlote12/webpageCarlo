@@ -1,0 +1,87 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100%;
+    width: 100%;       
+    margin: 0;
+    display: flex;
+    flex-direction: column;   
+    background: url(Diseño\ sin\ título.png) center center;
+    background-size: cover;
+    justify-content: flex-end;
+}
+
+.inicio{
+    justify-content: center;
+    align-items: end;
+}
+
+.contenedor{
+    text-align: center;
+    padding: 20px;
+    background-color: #FFFBE6;
+    opacity: 85%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #000(0, 0, 0, 0.1);
+}
+
+.boton-redireccion{
+    background-color: #FD5E4B;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.boton-redireccion:hover{
+    background-color: #ff4f3b;
+}
+
+.sobremi {
+    text-align: start;
+    padding: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(255, 251, 230, 0.85);
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.aboutcarlo{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.fotokiki{
+    width: 500px;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.cardfoto{
+    padding: 15px;
+    border-radius: 15px;
+    padding-bottom: 30px;
+    background-color: #FFFBE6;
+    margin-top: 40px;
+}
+
+.volver{
+    align-items: start;
+    display: block;
+    justify-content: start;
+    padding: 01px;
+}
+
+.movimiento{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
