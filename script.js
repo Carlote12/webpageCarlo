@@ -9,3 +9,4 @@ personaje.addEventListener('click', () => {
         console.log("Estado: Quieto");
     }
 });
+

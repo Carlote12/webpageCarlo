@@ -1,0 +1,11 @@
+{
+    "header": {
+        "description": "descripcion",
+        "boton-redireccion": "botton-redirection"
+    },
+    "descripcion": {
+        "title": "Bienvenido a mi página web",
+        "text" : "Esta es mi pagina web personal en la que encontraras información acerca de mi, proyectos (mi primer sumobot) y mucho más!"
+    }
+    
+}
