@@ -158,6 +158,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 .screenshotjuego{
@@ -179,7 +180,6 @@ body {
     height: 48px;         
     background-image: url('dude.png');
     background-repeat: no-repeat;
-    background-position: 0px 0px; 
     margin-top: 20px;
     image-rendering: pixelated; 
     transform: scale(2.5);      
@@ -188,7 +188,10 @@ body {
 
     background-position: -128px 0px;
 
-    position: relative;
+    position: fixed;
+    left: 50%;
+    top: 25%;
+    z-index: 9999;
 }
 
 #player:hover {
@@ -199,16 +202,16 @@ body {
 .correr-izquierda {
     animation: 
         animar-izquierda 0.4s steps(4) infinite,
-        viaje-izquierda 4s linear infinite;
+        viaje-izquierda 2s linear infinite;
 }
 
 @keyframes animar-izquierda {
-    from {left: 0;}
-    to {left: -288px;}
+    from {background-position: 0px 0px;}
+    to {background-position: -128px 0px;}
 }
 
 @keyframes viaje-izquierda {
-    from {left: 100%}
+    from {left: 100%;}
     to {left: -50px;}
 }
 
@@ -224,6 +227,6 @@ body {
 }
 
 @keyframes viaje-derecha {
-    from {left: -50px;}
+    from {left: 50px;}
     to {left: 100%;}
 }
