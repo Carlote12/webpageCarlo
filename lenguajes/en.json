@@ -1,0 +1,9 @@
+{
+  "descripcion": {
+    "title": "Welcome to my website",
+    "text": "This is my personal website where you'll find information about me, projects (my first sumobot) and much more!"
+  },
+  "boton-redirection": {
+    "title": "Click here to learn more!"
+  }
+}

@@ -3,19 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mi Página Web</title>
     <link rel="stylesheet" href="style.css">
 </head>
-    
+<body>
+
     <div class="description">
-        <h1>Bienvenido a mi página web</h1>
-        <p>Esta es mi pagina web personal en la que encontraras información acerca de mi, proyectos (mi primer sumobot) y mucho más!</p>
-        <a href="aboutme.html" class="boton-redireccion">Haz clik aquí para conocer más!</a>
-    </div>
-    <div class="lenguaje">
-        <button class="lang-button">EN</button>
-        <button class="lang-button">ES</button>
+        <h1 data-section="descripcion" data-value="title">Bienvenido a mi página web</h1>
+        
+        <p data-section="descripcion" data-value="text">
+            Esta es mi pagina web personal en la que encontraras información acerca de mi, proyectos (mi primer sumobot) y mucho más!
+        </p>
+        
+        <a href="aboutme.html" class="boton-redireccion" data-section="boton-redirection" data-value="title">
+            Haz clik aquí para conocer más!
+        </a>
     </div>
 
+    <div class="lenguaje" style="margin-top: 30px;">
+        <button class="lang-button" data-language="en">English (EN)</button>
+        <button class="lang-button" data-language="es">Español (ES)</button>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
