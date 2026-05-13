@@ -14,6 +14,22 @@ body {
     justify-content: flex-end;
 }
 
+.decoracion-hamster {
+    position: absolute;
+    width: 250px;
+    height: auto;
+    top: 260px;
+    right: 0px;
+}
+
+.decoracion-malcome{
+    position: absolute;
+    width: 250px;
+    height: auto;
+    top: 360px;
+    left: -40px;
+}
+
 .inicio{
     justify-content: center;
     align-items: end;
@@ -71,6 +87,32 @@ body {
     padding-bottom: 30px;
     background-color: #FFFBE6;
     margin-top: 40px;
+    position: relative;
+}
+.kiki-flecha {
+    position: absolute;
+    width: 200px; 
+    height: auto;
+    top: -1px;  
+    right: 355px; 
+    transform: rotate(12deg); 
+}
+
+.carita-feliz {
+    position: absolute;
+    width: 140px;
+    height: auto;
+    top: 250px;
+    right: -59px;
+    transform: rotate(-10deg);
+}
+.moño{
+    position: absolute;
+    width: 140px;
+    height: auto;
+    top: -40px;
+    right: -59px;
+    transform: rotate(25deg);
 }
 
 .volver{
@@ -131,12 +173,22 @@ body {
     border-radius: 10px;
 }
 
+
 .sumo2{
     padding: 15px;
     border-radius: 15px;
     padding-bottom: 30px;
     background-color: #FFFBE6;
     display: inline-block;
+    position: relative;
+}
+
+.Genial {
+    position: absolute;
+    width: 200px; 
+    height: auto;
+    top: 120px; 
+    left: 500px;
 }
 
 .game{
