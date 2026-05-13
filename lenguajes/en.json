@@ -5,5 +5,22 @@
   },
   "boton-redirection": {
     "title": "Click here to learn more!"
+  },
+
+    "textosobremi": {
+        "title": "About me",
+        "text1": "My name is Carlo. I'm 13 years old and I live in Argentina. I really enjoy programming, reading books, and listening to music. I also love chatting with my friends and meeting new people.",
+        "text2": "I have a 16-year-old sister, her name is Chiara, but we call her Kiki! She loves speedcubing and robotics."
+    },
+
+    "Caracteristicas": {
+    "title": "Sumobot",
+    "text": "This is my first sumobot. I created it with recycled materials. It uses an ESP32 to connect to my phone and be controlled from an app I designed in App Inventor. I programmed the ESP32 to receive letters from the phone, and the action it performs depends on the letters. Something I liked adding was a pilot figure, a Lego model that simulates driving the robot and has different modes: calm, angry, rage, and disc!"
+  },
+
+  "juegito": {
+    "title": "Universal Alien",
+    "text": "This is a game I made for Higtseas. It's about an alien who has to capture stars while dodging meteors. Every time you get 12 stars, the alien goes back to the start, new stars fall, and a meteor is added."
   }
+
 }

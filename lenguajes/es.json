@@ -5,5 +5,19 @@
   },
   "boton-redirection": {
     "title": "Haz clik aquí para conocer más!"
+  },
+  "textosobremi": {
+    "title": "Sobre mí",
+    "text1": "Soy Carlo. Tengo 13 años y vivo en Argentina. Me gusta mucho programar, leer libros y escuchar música. También me encanta charlar con mis amigos y conocer gente nueva.",
+    "text2": "Tengo una hermana de 16 años, se llama Chiara, pero le decimos Kiki! Le encanta el Speedcubing y la robótica."
+  },
+
+  "Caracteristicas": {
+    "title": "Sumobot",
+    "text": "Este es mi primer sumobot. Lo cree con materiales reciclados. Usa un ESP32 para conectarse al celular y poder manejarlo desde una app que diseñé en app inventor. El ESP32 lo programé para que reciba del celular letras y dependiendo de estas va ser la accion que tenga que realizar. Algo que me gusto agregarle fue un piloto que es un lego que emula manejarlo y tiene distintos modos calmado enojado  ira y disco!"
+  },
+  "juegito": {
+    "title": "Universal Alien",
+    "text": "Este es un juego que hice para higtseas.Trata de un alien que tiene que capturar estrellas mientras esquiva meteoros.Cada vez que consigues 12 estrellas el alien vuelve al inicio y caen nuevas estrellas y se agrega un meteoro"
   }
 }
