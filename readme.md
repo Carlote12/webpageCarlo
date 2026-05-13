@@ -21,6 +21,6 @@ This is the last part and it's about a game I made (super cool XD) and it also h
 
 https://github.com/user-attachments/assets/31e8ecba-ba71-4b38-af0f-10a9841b01c6
 
-
-
 ## Thanks!
+Thanks to my cool sister for teaching me about Hack Club and to the judge who evaluated my website! ❤️
+<img width="500" height="1314" alt="download (10)" src="https://github.com/user-attachments/assets/3d5acdc9-2264-437d-b9ee-265550596aea" />
